@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background: #58e59e;
+        }
+
+        nav {
+            background-color: #58e59e;
+            color: white;
+            padding: 5px;
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .parent {
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+        }
+
+        li {
+            margin-left: 30px;
+        }
+
+        nav div {
+            flex-grow: 1;
+        }
+
+        #image {
+            vertical-align: middle;
+        }
+
+        .child {
+            padding: 10px;
+            padding-left: 80px;
+        }
+
+        .Blackbar {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+        }
+
+        #button {
+            background-color: #5895e5;
+            height: 20px;
+            width: 100px;
+        }
+
+        li:last-child {
+            position: relative;
+        }
+
+        li:last-child img {
+            vertical-align: middle;
+            width: 30px;
+            background-color: black;
+            padding-left: 15px;
+            padding-right: 15px;
+            position: absolute;
+            top: -4px;
+        }
+
+        section img {
+            width: 100%;
+            height: 600px;
+        }
+
+        .imagesection {
+            position: absolute;
+            top: 0;
+            width: 20%;
+            margin-left: 15%;
+            color: white;
+        }
+
+        #textcenter {
+            position: relative;
+        }
+
+        .imagetext {
+            font-size: 4em;
+        }
+
+        .imageparagraph {
+            font-size: 2em;
+        }
+
+        #imgbutton {
+            background-color: transparent;
+            padding: 10px 30px;
+            border: 1px solid white;
+            font-size: 20px;
+        }
+
+        #images {
+            text-align: center;
+            display: flex;
+        }
+
+        .support {
+            margin-left: 15%;
+
+        }
+
+        #images {
+            justify-content: space-evenly;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+        }
+
+        #logo {
+            margin-left: 0px;
+            padding: 0px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .blackbox {
+            background-color: black;
+            width: 250px;
+            height: 250px;
+            margin: auto;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .textleft {
+            text-align: left;
+            margin-left: 30px;
+            padding-top: 25px;
+        }
+
+        #White-circle {
+            width: 60px;
+            height: 60px;
+            border: 6px solid white;
+            position: absolute;
+            bottom: -23px;
+            right: -22px;
+            border-radius: 60px;
+
+        }
+
+        #triangle {
+            width: 70px;
+            height: 75px;
+            bottom: 0;
+            right: -11px;
+            position: absolute;
+
+
+        }
+
+        #square {
+            width: 60px;
+            height: 60px;
+            border: 6px solid white;
+            position: absolute;
+            margin: 60px;
+            left: 140px;
+            bottom: -84px;
+        }
+
+
+        footer {
+            position: relative;
+
+        }
+
+        footer .imagesection {
+            top: 16%;
+            width: 32%;
+            right: 22%;
+
+        }
+
+        footer #imgbutton {
+            background-color: white;
+            padding: 10px 40px;
+        }
+
+        .textleft {
+            text-align: left;
+            margin-left: 30px;
+            padding-top: 25px;
+        }
+
+        .blackbox h1:last-child {
+            margin-top: 50px;
+        }
+
+        /* #flex {
+            display: flex;
+        } */
+
+        #flex>div {
+            width: 50%;
+        }
+
+        h3:first-child {
+            margin-bottom: 0;
+
+        }
+
+        h1:last-child {
+            margin-top: 0;
+        }
+
+        .lastimg img {
+            width: 100%;
+            height: 700px;
+            margin: 0;
+            margin-top: 60px;
+
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .imageparagraph1 {
+            position: absolute;
+        }
+
+        .imagetext {
+            font-size: 4em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="Blackbar">
+
+            <button id="button">submit</button>
+            apple mango orange to covid-19
+
+        </div>
+        <nav>
+            <img id="logo" src="pngtree-red-and-black-logo-png-image_5517319.jpg" alt="">
+            <div class="child">
+
+                <span>Faisalabad</span>
+            </div>
+            <div>
+                <ol class="parent">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Contact</li>
+                    <li>Dashboard</li>
+                    <!-- <li>
+                        <img src="5a364b44ee59c3.0140575715135076529763.png" alt="">
+                    </li> -->
+
+                </ol>
+            </div>
+        </nav>
+    </header>
+    <section id="textcenter">
+        <img src="wp4117283.jpg" alt="">
+        <div class="imagesection">
+            <h1 class="imagetext">Serving You since 1989.</h1>
+            <p class="imageparagraph">
+                Introduction pages come at the beginning of each chapter. They introduce the key topic you will learn
+                about.
+            </p>
+            <button class="imgbutton">getting starting</button>
+
+        </div>
+
+    </section>
+    <!-- <div class="flex">
+        <div class="support">
+            <h3>What to support</h3>
+            <h1>support Acme Outdoors.</h1>
+        </div>
+        <div>
+            <p>
+                Anyone who has a website (that may be built using a content management system,blogging software, or an
+                e-commerce platform) and wants more control over the appearance of their pages
+            </p> -->
+    </div>
+    </div>
+    <div id="images">
+        <div class="box">
+            <div class="blackbox">
+                <h1 class="textleft">01</h1>
+                <h1>Shop Products</h1>
+                <div id="White-circle">
+
+                </div>
+
+            </div>
+            <p>The only things you need in order to use this book are a computer with a web browser and a text
+                editor(such as Notepad).</p>
+        </div>
+        <div class="box">
+            <div class="blackbox">
+                <h1 class="textleft">02</h1>
+                <h1>Donate</h1>
+                <img id="triangle" src="pngtree-beautiful-triangle-vector-line-icon-png-image_1795275.jpg" alt="">
+
+            </div>
+            <p>The only things you need in order to use this book are a computer with a web browser and a text
+                editor(such as Notepad).</p>
+        </div>
+        <div class="box">
+            <div class="blackbox">
+                <h1 class="textleft">03</h1>
+                <h1>Buy Gift Cards</h1>
+                <div id="square"></div>
+
+            </div>
+            <p>The only things you need in order to use this book are a computer with a web browser and a text
+                editor(such as Notepad).</p>
+
+        </div>
+    </div>
+    <footer>
+        <div class="lastimg">
+            <img src="114716.jpg" alt="">
+
+            <div class="imagesection">
+                <h1 class="imagetext">How were Keeping you safe during COVID-19</h1>
+                <p class="imageparagraph">
+                    Introduction pages come at the beginning of each chapter. They introduce the key topics you will
+                    learn
+                    about.
+                </p>
+                <button id="imgbutton">Getting starting</button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
